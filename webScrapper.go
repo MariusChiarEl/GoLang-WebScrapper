@@ -14,9 +14,6 @@ type item struct {
 
 func arrangeText(t string){
 	lines := strings.Split(t, "\n")
-	//product := item
-	//product.Name = lines[4]
-	//product.Price = lines[16]
 	for i:= 0; i<len(lines); i++{
 		if strings.Contains(lines[i], "Televizor"){
 			fmt.Println("Nume produs: " + lines[i])
